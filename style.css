@@ -36,14 +36,20 @@ footer {
     text-align: center;
 }
 
-#para1{
-    color:rgb(245, 235, 168);
+.para1{
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', monospace;
+}
+
+.titlu{
+    color:rgb(255, 255, 255);
     font-family: 'Courier New', monospace;
     text-decoration:underline;
 }
 
 .social-icon{
     color:rgb(245, 235, 168);
+    
 }
 
 .social-icon:hover{
