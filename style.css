@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(34, 30, 30);
-    color: wheat;
+    background-color: rgb(8, 6, 29);
+    color: rgb(255, 255, 255);
+
 }
 span {
     color: red;
@@ -31,3 +32,27 @@ footer {
     margin: 20px auto;
     text-align: center;
 }
+
+#para1{
+    color:rgb(245, 235, 168);
+    font-family: 'Courier New', monospace;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  img {
+    max-width: 100%
+  }
+
+  .image {
+    flex-basis: 30%
+  }
+
+  .text {
+    font-size: 40px;
+    padding-left: 20px;
+  }
