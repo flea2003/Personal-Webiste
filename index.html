@@ -7,9 +7,19 @@
     <title>Victor Purice</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        function todayDate(){
+        var d = new Date();
+        var n = d.getFullYear() + "  ";
+        return document.getElementById("date").innerHTML = n;
+    }
+    </script>
+
+
 </head>
-<body>
-    <img src="VictorPurice2.jpg" alt="This is my profile image" width="100">
+<body onload=todayDate()>
+    <img src="VictorPurice2.jpg" alt="This is my profile image" width="200">
     <center>
     <h1>
         <pre>
@@ -105,5 +115,11 @@
     <p style="background-color: purple;">heh</p>
     <h1 style="background-color: green;">HEH</h1>
     <a href="https://tv8.md">HEHHEHE</a>
+
+   
+
+    <footer>
+        &copy; <em id="date"></em>Victor Purice
+    </footer>
 </body>
 </html>
