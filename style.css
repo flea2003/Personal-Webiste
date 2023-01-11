@@ -67,8 +67,8 @@ ion-icon {
     max-width: 100%
   }
 
-  .card {
-    flex-basis: 19%
+  .container {
+    flex-basis: 30%
   }
 
   .text {
@@ -76,15 +76,14 @@ ion-icon {
     padding-left: 20px;
   }
 
-  .paragraph{
+  h3{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:  rgb(8, 6, 29);
     font-size: 0.9em;
-    background-color: red;    
-    display:inline;
+    background-color: red;
   }
 
-  .paragraph:hover, #para1:hover{
+  h3:hover, #para1:hover{
     color:red;
     background-color:  rgb(8, 6, 29);
   }
@@ -93,17 +92,14 @@ ion-icon {
     color:rgb(255, 0, 242);
   }
 
-  .paragraph:hover::first-letter{
+  h3:hover::first-letter{
     color:rgb(238, 0, 255);
   }
 
   .container .hoverImg {
-    display: none;
+    visibility: hidden;
   }
   
   .container:hover .hoverImg {
     display: inline;
   }
-
-  .container:hover .hoverImg {
-}
