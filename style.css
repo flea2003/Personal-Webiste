@@ -107,7 +107,9 @@ ion-icon {
   .parent{
     border: 2px solid red;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    height: 500px;
     flex-wrap: wrap;
   }
 
@@ -130,17 +132,17 @@ ion-icon {
   .parenttable{
     display: flex;
     flex-wrap:wrap;
-    background-color:red;
     flex-direction:column;
-    width: 900px;
+    justify-content: space-between;
+    width: 800px;
   }
-
 
   .parenttable2{
     display: flex;
     flex-wrap:wrap;
     background-color:green;
     flex-direction:column;
+    justify-content: space-evenly;
   }
 
   .parentparent{
@@ -152,5 +154,36 @@ ion-icon {
 
   .c1{
     padding: 30px;
+    margin: 20px;
+  }
 
+  .d1{
+    background-color: rgb(52, 30, 30);
+  }
+
+  .flex {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    background-color: #7d7d7d;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .flex2 {
+    justify-content: space-around;
+  }
+  
+  .flex3 {
+    justify-content: space-between;
+  }
+  
+  .flex-items {
+    background-color: #cccaca;
+    width: 90px;
+    height: 60px;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.5;
   }
