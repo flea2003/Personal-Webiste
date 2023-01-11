@@ -129,22 +129,20 @@ ion-icon {
 
   .parenttable{
     display: flex;
-    flex-wrap:wrap;
     flex-direction:column;
-    width: 70%;
+    width: 60%;
   }
 
   .parenttable2{
     display: flex;
-    flex-wrap:wrap;
     flex-direction:column;
     width: 30%;
   }
 
   .parentparent{
     display: flex;
-    flex-wrap:wrap;
     flex-direction:row;
+    flex-wrap:wrap;
     justify-content: space-between;
   }
 
@@ -156,31 +154,4 @@ ion-icon {
   .d1{
     background-color: rgb(10, 18, 4);
     border: solid#eb0000;
-  }
-
-  .flex {
-    display: flex;
-    font-size: 30px;
-    text-align: center;
-    background-color: #7d7d7d;
-    color: #000000;
-    font-weight: bold;
-  }
-  
-  .flex2 {
-    justify-content: space-around;
-  }
-  
-  .flex3 {
-    justify-content: space-between;
-  }
-  
-  .flex-items {
-    background-color: #cccaca;
-    width: 90px;
-    height: 60px;
-    margin: 10px;
-    text-align: center;
-    font-size: 40px;
-    line-height: 1.5;
   }
