@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(8, 6, 29);
+    background-color: rgb(8, 0, 94);
     color: rgb(255, 255, 255);
     margin: 60px;
 }
@@ -154,7 +154,7 @@ ion-icon {
   }
 
   .d1{
-    background-color: rgb(10, 18, 4);
+    background-color: rgb(0, 0, 0);
     border: solid#eb0000;
     border-radius: 2%;
   }
