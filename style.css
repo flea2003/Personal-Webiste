@@ -141,7 +141,6 @@ ion-icon {
     flex-wrap:wrap;
     background-color:green;
     flex-direction:column;
-    width: 350px;
   }
 
   .parentparent{
@@ -153,6 +152,5 @@ ion-icon {
 
   .c1{
     padding: 30px;
-    display: inl;
-    color: white;
+
   }
