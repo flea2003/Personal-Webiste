@@ -132,12 +132,15 @@ ion-icon {
     flex-wrap:wrap;
     flex-direction:column;
     width: 800px;
+    text-align: center;
+
   }
 
   .parenttable2{
     display: flex;
     flex-direction:column;
     width: 400px;
+    text-align: center;
   }
 
   .parentparent{
@@ -145,6 +148,7 @@ ion-icon {
     flex-direction:row;
     flex-wrap:wrap;
     justify-content: space-between;
+    
   }
 
   .c1{
