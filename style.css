@@ -129,14 +129,15 @@ ion-icon {
 
   .parenttable{
     display: flex;
+    flex-wrap:wrap;
     flex-direction:column;
-    width: 60%;
+    width: 800px;
   }
 
   .parenttable2{
     display: flex;
     flex-direction:column;
-    width: 30%;
+    width: 400px;
   }
 
   .parentparent{
@@ -154,4 +155,5 @@ ion-icon {
   .d1{
     background-color: rgb(10, 18, 4);
     border: solid#eb0000;
+    border-radius: 2%;
   }
