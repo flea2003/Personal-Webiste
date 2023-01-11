@@ -150,3 +150,9 @@ ion-icon {
     flex-direction:row;
     justify-content: space-between;
   }
+
+  .c1{
+    padding: 30px;
+    display: inl;
+    color: white;
+  }
