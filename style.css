@@ -103,3 +103,50 @@ ion-icon {
   .container:hover .hoverImg {
     display: inline;
   }
+
+  .parent{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+
+  .child{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .child1{
+    background-color: blue;
+  }
+  .child2{
+    background-color: red;
+  }
+  .child3{
+    background-color: yellow;
+  }
+
+  .parenttable{
+    display: flex;
+    flex-wrap:wrap;
+    background-color:red;
+    flex-direction:column;
+    width: 100px;
+  }
+
+
+  .parenttable2{
+    display: flex;
+    flex-wrap:wrap;
+    background-color:green;
+    flex-direction:column;
+    width: 300px;
+  }
+
+  .parentparent{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    width: 300px;
+  }
