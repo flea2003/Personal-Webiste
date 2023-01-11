@@ -131,14 +131,14 @@ ion-icon {
     display: flex;
     flex-wrap:wrap;
     flex-direction:column;
-    width: 800px;
+    width: 70%;
   }
 
   .parenttable2{
     display: flex;
     flex-wrap:wrap;
     flex-direction:column;
-    width: 500px;
+    width: 30%;
   }
 
   .parentparent{
