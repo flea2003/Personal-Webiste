@@ -1,7 +1,7 @@
 body{
     background-color: rgb(8, 6, 29);
     color: rgb(255, 255, 255);
-    margin: 30px;
+    margin: 60px;
 }
 span {
     color: red;
@@ -132,7 +132,7 @@ ion-icon {
     flex-wrap:wrap;
     background-color:red;
     flex-direction:column;
-    width: 100px;
+    width: 900px;
   }
 
 
@@ -141,12 +141,12 @@ ion-icon {
     flex-wrap:wrap;
     background-color:green;
     flex-direction:column;
-    width: 300px;
+    width: 350px;
   }
 
   .parentparent{
     display: flex;
     flex-wrap:wrap;
     flex-direction:row;
-    width: 300px;
+    justify-content: space-between;
   }
