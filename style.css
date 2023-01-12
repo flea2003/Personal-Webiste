@@ -1,11 +1,9 @@
 body{
-    background-color: rgb(8, 0, 94);
-    color: rgb(255, 255, 255);
+    background-color: #393E46;
+    color: #F3EFE0;
     margin: 0px;
 }
-span {
-    color: red;
-}
+
 p {
     text-indent: 20px;
 }
@@ -18,7 +16,7 @@ code{
 
 img {
     border-radius: 50%;
-    border:2px solid #eb0000; 
+    border:2px solid #EEEEEE; 
     padding:5px; 
     margin:3px
 }
@@ -35,12 +33,13 @@ footer {
 
 .titlu{
     color:rgb(255, 255, 255);
-    font-family: 'Courier New', monospace;
-    text-decoration:underline;
-}
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size:50px;
+  }
 
 .titlu:hover{
-    color:#eb0000;
+    color:#00ADB5;
 }
 
 .social-icon{
@@ -56,16 +55,17 @@ ion-icon {
 }
 
 .social-icon:hover{
-    color:red;
+    color: #00ADB5;
 }
 
 .container {
   height: 50px;
-  padding: 0 45px;
-  background-color: #283593;
+  padding: 0 25px;
+  background-color: #222831;
   color: #FFF;
   display: flex;
   justify-content: space-between;
+  border:solid #EEEEEE;
   align-items: center;
   flex-wrap: wrap;
   position:fixed;
@@ -97,16 +97,12 @@ ion-icon {
 
   h3{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:red;
+    color:#EEEEEE;
     font-size: 0.9em;
   }
 
   h3:hover, #para1:hover{
-    color:red;
-  }
-
-  .titlu:first-letter{
-    color:rgb(255, 0, 242);
+    color:#00ADB5;
   }
 
   h3:hover::first-letter{
@@ -149,14 +145,14 @@ ion-icon {
 .link{
   text-decoration:none;
   color: white;
-  margin: 20px;
+  margin: 30px;
 }
 
   .parenttable{
     display: flex;
     flex-wrap:wrap;
     flex-direction:column;
-    width: 800px;
+    width: 1000px;
   }
 
   .parenttable2{
@@ -179,8 +175,8 @@ ion-icon {
   }
 
   .d1{
-    background-color: rgb(0, 0, 0);
-    border: solid#eb0000;
+    background-color: #222831;
+    border: solid#EEEEEE;
     border-radius: 2%;
   }
 
@@ -191,4 +187,16 @@ ion-icon {
 
   html{
     scroll-behavior: smooth;
+  }
+
+  .empty{
+    height: 70px;
+  }
+
+  .inceput{
+    display: flex;
+    justify-content: space-around;
+    background-color: #222831;
+    border:solid #EEEEEE;
+    align-items: center;
   }
