@@ -79,6 +79,7 @@ ion-icon {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 
@@ -196,6 +197,7 @@ ion-icon {
   .inceput{
     display: flex;
     justify-content: space-around;
+    flex-wrap:wrap;
     background-color: #222831;
     border:solid #EEEEEE;
     align-items: center;
