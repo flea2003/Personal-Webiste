@@ -58,8 +58,7 @@ ion-icon {
 }
 
 .container {
-  height: 70px;
-  padding: 0 25px;
+  padding:  25px;
   background-color: #222831;
   color: #FFF;
   display: flex;
@@ -201,9 +200,6 @@ ion-icon {
     background-color: #222831;
     border:solid #EEEEEE;
     align-items: center;
+    
+    
   }
-
-#anchor {
-  padding-top: 50px;
-  margin-top: -50px;
-}
