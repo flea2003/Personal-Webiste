@@ -79,7 +79,6 @@ ion-icon {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 
 
@@ -201,6 +200,7 @@ ion-icon {
     background-color: #222831;
     border:solid #EEEEEE;
     align-items: center;
+    flex-basis: 300px;
   }
   #id {
     scroll-margin-top: 100px;
@@ -209,3 +209,24 @@ ion-icon {
   #ir {
     scroll-margin-top: 100px;
   }
+
+  .image1:hover {
+    opacity: 0;
+    transition: 2s;
+  }
+  
+  .image2{
+    position:relative;
+    top:0px;
+    left:0px;
+  }
+  
+.image1{
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.c{
+  flex-basis: 95px;
+}
