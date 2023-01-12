@@ -1,7 +1,7 @@
 body{
     background-color: rgb(8, 0, 94);
     color: rgb(255, 255, 255);
-    margin: 60px;
+    margin: 0px;
 }
 span {
     color: red;
@@ -46,8 +46,9 @@ footer {
 .social-icon{
     color:rgb(245, 235, 168);
     --ionicon-stroke-width: 16px;
-    margin: 2px;
-}
+    margin: 8px;
+    font-family: serif;
+  }
 
 ion-icon {
     font-size: 22px; //Preferred size here
@@ -59,9 +60,27 @@ ion-icon {
 }
 
 .container {
-    display: flex;
-    align-items: center;
-  }
+  height: 50px;
+  padding: 0 45px;
+  background-color: #283593;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
 
   img {
     max-width: 100%
@@ -127,6 +146,12 @@ ion-icon {
     background-color: yellow;
   }
 
+.link{
+  text-decoration:none;
+  color: white;
+  margin: 20px;
+}
+
   .parenttable{
     display: flex;
     flex-wrap:wrap;
@@ -157,4 +182,13 @@ ion-icon {
     background-color: rgb(0, 0, 0);
     border: solid#eb0000;
     border-radius: 2%;
+  }
+
+
+  .empty{
+    width: 50%;
+  }
+
+  html{
+    scroll-behavior: smooth;
   }
