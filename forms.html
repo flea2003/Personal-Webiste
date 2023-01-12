@@ -4,15 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <title>Feedback</title>
+
+    <script>
+        function todayDate(){
+        var d = new Date();
+        var n = d.getFullYear() + "  ";
+        return document.getElementById("date").innerHTML = n;
+    }
+    </script>
 </head>
-<body>
-    <form action="">
-        <label for="">Your Name:</label><input type="text" name = "name">
-        <br>
-        <label for="">Your Email:</label><input type="email" name = "name_email"> <br>
-        <label for="">Your Message: </label> <br> <textarea name="" id="" cols="30" rows="10"></textarea> <br>
-        <input type="submit" value="SUBMIT">
+<body onload=todayDate()>
+
+    <div class = "inceput">
+        <h1>  
+            <div class="titlu">Feedback</div>
+        </h1>
+    </div>
+
+    <div class = "empty">
+    </div>
+
+
+    <form action="" >
+        <ul class="nav">
+            <li>
+                <div class="name content">
+                    <label for="Name">Your Name:</label>
+                    <input type="text" name = "name" style="width:260px"/> 
+                </div>
+            </li>
+            <li>
+                <div class="email content">
+                    <label for="">Your Email:</label><input type="email" name = "name_email" style="width:260px"> 
+                </div>
+            </li>
+            <li>
+                <div class="message content">
+                    <label for="">Your Message:</label> <br> <textarea name="lol" id="" style="width:260px" rows="10"></textarea> 
+                </div>
+            </li>
+            <li>
+                <div class="button">
+                    <button type="submit">
+                        <div style="font-family: 'Courier New', monospace;"> Submit </div>
+                    </button>
+                </div>
+            </li>
+        </ul>
+        
     </form>
+
+
+    <div class = "empty">
+    </div>
+
+    <footer>
+        &copy; <em id="date"></em>Victor Purice
+    </footer>
+
+    
 </body>
 </html>
