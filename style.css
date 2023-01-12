@@ -33,7 +33,6 @@ footer {
 
 .titlu{
     color:rgb(255, 255, 255);
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-family: 'Space Grotesk', sans-serif;
     font-size:50px;
   }
@@ -59,7 +58,7 @@ ion-icon {
 }
 
 .container {
-  height: 50px;
+  height: 70px;
   padding: 0 25px;
   background-color: #222831;
   color: #FFF;
@@ -79,6 +78,7 @@ ion-icon {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrao;
 }
 
 
@@ -96,9 +96,9 @@ ion-icon {
   }
 
   h3{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     color:#EEEEEE;
-    font-size: 0.9em;
+    font-size: 20px;
   }
 
   h3:hover, #para1:hover{
@@ -190,7 +190,7 @@ ion-icon {
   }
 
   .empty{
-    height: 70px;
+    height: 90px;
   }
 
   .inceput{
@@ -200,3 +200,8 @@ ion-icon {
     border:solid #EEEEEE;
     align-items: center;
   }
+
+#anchor {
+  padding-top: 50px;
+  margin-top: -50px;
+}
